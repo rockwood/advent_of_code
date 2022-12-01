@@ -5,6 +5,6 @@ defmodule AocTest do
   test "day 1" do
     stream = File.stream!("test/fixtures/day1.txt")
 
-    assert Aoc.Day1.run(stream) == 71300
+    assert Aoc.Day1.run(stream) == 209691
   end
 end
