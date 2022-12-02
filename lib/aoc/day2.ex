@@ -12,13 +12,13 @@ defmodule Aoc.Day2 do
     do_run(tail, acc + score(head))
   end
 
-  defp score("A X"), do: 1 + 3
-  defp score("A Y"), do: 2 + 6
-  defp score("A Z"), do: 3 + 0
+  defp score("A X"), do: 3 + 0
+  defp score("A Y"), do: 1 + 3
+  defp score("A Z"), do: 2 + 6
   defp score("B X"), do: 1 + 0
   defp score("B Y"), do: 2 + 3
   defp score("B Z"), do: 3 + 6
-  defp score("C X"), do: 1 + 6
-  defp score("C Y"), do: 2 + 0
-  defp score("C Z"), do: 3 + 3
+  defp score("C X"), do: 2 + 0
+  defp score("C Y"), do: 3 + 3
+  defp score("C Z"), do: 1 + 6
 end

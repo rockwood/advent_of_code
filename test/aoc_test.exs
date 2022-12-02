@@ -11,6 +11,6 @@ defmodule AocTest do
   test "day 2" do
     input = File.read!("test/fixtures/day2.txt")
 
-    assert Aoc.Day2.run(input) == 15422
+    assert Aoc.Day2.run(input) == 15442
   end
 end
